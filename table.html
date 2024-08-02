@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>table.html</h1>
+    <!-- thead, tbody, tfoot best practice -->
+    <table>
+        <caption>My first saving</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>January</th>
+                <td>100</td>
+            </tr>
+            <tr>
+                <th>Feb</th>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th>March</th>
+                <td>300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>600</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
